@@ -9,8 +9,8 @@
     - Sign In /Sign up Form [Reusable component,vaidations]
     - redirect to Browse Page
 - Browse (after authentication)
-    -Header
-    -Main Movie
+    - Header
+    - Main Movie
         - Tailer in Background
         - Title & Description
         - MovieSuggestions
