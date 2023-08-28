@@ -24,3 +24,4 @@ NetflixGPT
 - New way to create form signin and signup,using same code.
 - If you have very large forms which requires validations then use formik library.
 - Think about custom forms.
+- Used useRef instead of useState method for getting value of input field in signin/up form.
