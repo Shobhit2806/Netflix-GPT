@@ -1,5 +1,7 @@
-#Netflix GPT
+# Netflix GPT
 
 1. CRA
 2. Configure TailwindCSS
-3. 
+
+
+# Features
