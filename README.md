@@ -5,19 +5,19 @@
 
 
 # Features
--Login/Sign Up
-    -Sign In /Sign up Form [Reusable component,vaidations]
-    -redirect to Browse Page
--Browse (after authentication)
+- Login/Sign Up
+    - Sign In /Sign up Form [Reusable component,vaidations]
+    - redirect to Browse Page
+- Browse (after authentication)
     -Header
     -Main Movie
-        -Tailer in Background
-        -Title & Description
-        -MovieSuggestions
-            -MovieLists * N
--NetflixGPT
-    -Search Bar
-    -Movie Suggestions
+        - Tailer in Background
+        - Title & Description
+        - MovieSuggestions
+            - MovieLists * N
+- NetflixGPT
+    - Search Bar
+    - Movie Suggestions
 
 
 # Learnings
