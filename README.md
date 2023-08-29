@@ -21,6 +21,14 @@
 - Add hardcoded values to the constants file
 - Regiter TMDB API & create an app & get access token
 - Get Data from TMDB now playing movies list API
+- Custom Hook for Now Playing Movies
+- Create movieSlice
+- Update Store with movies Data
+- Planning for MainContauiner & secondary container
+- Fetch Data for Trailer Video
+- Update Store with Trailer Video Data
+- Embedded the Yotube video and make it autoplay and mute
+- Tailwind Classes to make Main Container look awesome
 
 # Features
 
@@ -45,6 +53,8 @@
 - Used useRef instead of useState method for getting value of input field in signin/up form.
 - onAuthStateChanged in Header component is called whenever user signup,signin or signout
 - Api calls 2 times because of Strict mode enabled in our app. It will just happen twice in local but if we make a build for production it wont happen twice. It happens twice because React does extra rendering of your components to check for some inconsistency calls.
+- Usage of Custom Hooks.
+- When you are using Redux Store, store data in it. It is easily accessible
 
 # Good to have
 
