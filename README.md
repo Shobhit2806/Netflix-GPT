@@ -1,7 +1,7 @@
 # Netflix GPT
 
 - Create React App
-- Configured TailwindCSS 
+- Configured TailwindCSS
 - Header
 - Routing of App
 - Login Form
@@ -13,33 +13,40 @@
 - Create SignUp User Account
 - Implement Sign In user Api
 - Created Redux Store with userSlice
-- Implemented Sign out 
+- Implemented Sign out
 - Update Profile
-
+- BugFix: Sign up user displayName and profile picture update
+- BugFix: if the user is not logged in Redirect /browse to Login Page and vice-versa
+- Unsubscibed to the onAuthStateChanged callback
+- Add hardcoded values to the constants file
+- Regiter TMDB API & create an app & get access token
+- Get Data from TMDB now playing movies list API
 
 # Features
-- Login/Sign Up
-    - Sign In /Sign up Form [Reusable component,vaidations]
-    - redirect to Browse Page
-- Browse (after authentication)
-    - Header
-    - Main Movie
-        - Tailer in Background
-        - Title & Description
-        - MovieSuggestions
-            - MovieLists * N
-- NetflixGPT
-    - Search Bar
-    - Movie Suggestions
 
+- Login/Sign Up
+  - Sign In /Sign up Form [Reusable component,vaidations]
+  - redirect to Browse Page
+- Browse (after authentication)
+  - Header
+  - Main Movie
+    - Tailer in Background
+    - Title & Description
+    - MovieSuggestions
+      - MovieLists \* N
+- NetflixGPT
+  - Search Bar
+  - Movie Suggestions
 
 # Learnings
+
 - New way to create form signin and signup,using same code.
 - If you have very large forms which requires validations then use formik library.
 - Used useRef instead of useState method for getting value of input field in signin/up form.
-
+- onAuthStateChanged in Header component is called whenever user signup,signin or signout
+- Api calls 2 times because of Strict mode enabled in our app. It will just happen twice in local but if we make a build for production it wont happen twice. It happens twice because React does extra rendering of your components to check for some inconsistency calls.
 
 # Good to have
+
 - Refresh Token implementation
 - Think about custom forms.
- 
