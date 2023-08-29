@@ -29,6 +29,12 @@
 - Update Store with Trailer Video Data
 - Embedded the Yotube video and make it autoplay and mute
 - Tailwind Classes to make Main Container look awesome
+- Build Secondary Component
+- Build Movie List
+- build Movie Card
+- TMDB Image CDN URL
+- Made the Browsre page amazing with Tailwind CSS
+- usePopularMovies Custom hook
 
 # Features
 
@@ -55,6 +61,7 @@
 - Api calls 2 times because of Strict mode enabled in our app. It will just happen twice in local but if we make a build for production it wont happen twice. It happens twice because React does extra rendering of your components to check for some inconsistency calls.
 - Usage of Custom Hooks.
 - When you are using Redux Store, store data in it. It is easily accessible
+- For using z-index postion property should be set.
 
 # Good to have
 
