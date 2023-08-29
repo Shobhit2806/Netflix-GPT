@@ -1,7 +1,20 @@
 # Netflix GPT
 
-1. CRA
-2. Configure TailwindCSS
+- Create React App
+- Configured TailwindCSS 
+- Header
+- Routing of App
+- Login Form
+- Sign up Form
+- Form Validation
+- useRef Hook
+- Firebase Setup
+- Deploying our app to production
+- Create SignUp User Account
+- Implement Sign In user Api
+- Created Redux Store with userSlice
+- Implemented Sign out 
+- Update Profile
 
 
 # Features
@@ -23,5 +36,10 @@
 # Learnings
 - New way to create form signin and signup,using same code.
 - If you have very large forms which requires validations then use formik library.
-- Think about custom forms.
 - Used useRef instead of useState method for getting value of input field in signin/up form.
+
+
+# Good to have
+- Refresh Token implementation
+- Think about custom forms.
+ 
