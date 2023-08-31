@@ -12,7 +12,7 @@ const Header = () => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
   const user = useSelector((store) => store.user);
-  const showGPTSearch  = useSelector((store)=>store.gpt.showGPTSearch)
+  const showGPTSearch = useSelector((store) => store.gpt.showGPTSearch);
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, (user) => {
       if (user) {
@@ -57,31 +57,32 @@ const Header = () => {
   };
 
   const handleLangChange = (e) => {
-    dispatch(changeLanguage(e.target.value))
+    dispatch(changeLanguage(e.target.value));
   };
 
   return (
-    <div className="absolute w-screen px-8 py-2 bg-gradient-to-b from-black z-10 flex justify-between">
-      <img className="w-44" src={LOGO} alt="logo" />
+    <div className="absolute w-screen px-8 py-2 bg-gradient-to-b from-black z-10 flex flex-col md:flex-row justify-between">
+      <img className="w-44 mx-auto md:mx-0" src={LOGO} alt="logo" />
 
       {user && (
-        <div className="flex p-4 justify-between w-[30%] ">
-          {showGPTSearch && <select
-            className="rounded-lg text-lg text-white bg-gray-600 px-2 py-4 "
-            onChange={handleLangChange}
-          >
-            {SUPPORTED_LANGUAGES.map((lang) => (
-              <option key={lang.identifier} value={lang.identifier}>
-                {lang.name}
-              </option>
-            ))}
-          </select>}
+        <div className="flex p-4 justify-between w-[100%]  md:w-[30%]">
+          {showGPTSearch && (
+            <select
+              className="rounded-lg text-lg text-white bg-gray-600 px-2 py-4 "
+              onChange={handleLangChange}
+            >
+              {SUPPORTED_LANGUAGES.map((lang) => (
+                <option key={lang.identifier} value={lang.identifier}>
+                  {lang.name}
+                </option>
+              ))}
+            </select>
+          )}
           <button
             className="py-2 px-4 bg-purple-800 text-white rounded-lg text-lg"
             onClick={handleGPTSearchClick}
           >
-            {showGPTSearch?"Home": "GPT Search"}
-            
+            {showGPTSearch ? "Home" : "GPT Search"}
           </button>
           <img className="w-12 h-12" src={PROFILE_LOGO} alt="profile_logo" />
           <button

@@ -46,6 +46,7 @@
 - Memoization
 - Added .env file
 - Adding .env file to gitignore
+- Made our Site Responsive
 
 # Features
 
@@ -74,6 +75,7 @@
 - When you are using Redux Store, store data in it. It is easily accessible
 - For using z-index postion property should be set.
 - e.preventDeafult() prevent the page from refreshing.
+- Nothing->Mobile..sm->Tablet..md->desktop
 
 # Good to have
 
