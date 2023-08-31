@@ -38,6 +38,14 @@
 - GPT Search Page
 - GPT Search Bar
 - (BONUS) (Multi-language Feature in our App)
+- Get Open AI Api Key 
+- Gpt Search API Call
+- fetched gptMoviesSuggestions from TMDB
+- created gptSlice added data
+- Resused Movie List component to make movie suggestion container
+- Memoization
+- Added .env file
+- Adding .env file to gitignore
 
 # Features
 
@@ -65,6 +73,7 @@
 - Usage of Custom Hooks.
 - When you are using Redux Store, store data in it. It is easily accessible
 - For using z-index postion property should be set.
+- e.preventDeafult() prevent the page from refreshing.
 
 # Good to have
 
