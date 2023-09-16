@@ -24,3 +24,5 @@ export const SUPPORTED_LANGUAGES = [
 ];
 
 export const OPEN_AI_GPT_KEY = process.env.REACT_APP_OPEN_AI_GPT_KEY;
+
+export const FIREBASE_API_KEY = process.env.REACT_APP_FIREBASE_API_KEY;
